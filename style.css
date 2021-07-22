@@ -23,22 +23,21 @@
     } 
 
     a:link {
-        color: pink; 
-        background-color: mediumpurple; 
-        text-decoration: underline overline;
+        color: mediumpurple; 
+        font-weight: bold;
+        text-decoration: none;
       }
       
       a:visited {
-        color: snow;
-        background-color: pink;
+        color: mediumpurple;
         text-decoration: line-through;
       }
       
       a:hover {
-        color: pink;
+        color: snow;
         background-color: mediumpurple;
         text-decoration: line-through;
-        cursor: help;
+        cursor: grab;
       }
       
       a:active {
@@ -55,8 +54,8 @@
           font-weight: bold;
           padding-top: auto;
           padding-bottom: auto;
-
       }
+
       .second {
         background-color: snow;
         color: mediumpurple;
@@ -65,8 +64,26 @@
         font-size: 32px;
       }
 
+      .topnav {
+        background-color: rgb(247, 176, 188);
+        border-width: 5px;
+        border-color: rgb(235, 205, 209);
+        border-style: solid;
+      }
+
+      p {
+        background-color: rgb(247, 176, 188);
+        color: snow;
+        font-size: 24px;
+        font-weight: bolder;
+      }
+
       div span {
           background-color:rgb(247, 176, 188);
           margin: auto;
+      }
+
+       {
+
       }
 
