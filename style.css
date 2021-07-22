@@ -1,0 +1,72 @@
+    * {
+      align-items: center;
+      text-align: center;
+      
+    }
+    
+    body {
+        background-color: mediumpurple;
+        background-image: ;
+        color: snow;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        cursor: crosshair;
+    }
+    ::selection {
+      background-color: rgb(192, 223, 241);
+    }
+
+    h1 span {
+        color: snow;
+        background-color: mediumpurple;
+        size: 40px;
+    } 
+
+    a:link {
+        color: pink; 
+        background-color: mediumpurple; 
+        text-decoration: underline overline;
+      }
+      
+      a:visited {
+        color: snow;
+        background-color: pink;
+        text-decoration: line-through;
+      }
+      
+      a:hover {
+        color: pink;
+        background-color: mediumpurple;
+        text-decoration: line-through;
+        cursor: help;
+      }
+      
+      a:active {
+        color: rgb(255, 255, 154);
+        background-color: mediumpurple;
+        text-decoration: none;
+        cursor: wait;
+      }
+
+      .first {
+          background-color: rgb(247, 176, 188);
+          color: snow;
+          font-size: 28pt;
+          font-weight: bold;
+          padding-top: auto;
+          padding-bottom: auto;
+
+      }
+      .second {
+        background-color: snow;
+        color: mediumpurple;
+        width: auto;
+        height: 32px;
+        font-size: 32px;
+      }
+
+      div span {
+          background-color:rgb(247, 176, 188);
+          margin: auto;
+      }
+
