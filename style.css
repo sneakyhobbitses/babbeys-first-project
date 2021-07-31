@@ -1,7 +1,6 @@
     * {
       align-items: center;
       text-align: center;
-      
     }
     
     body {
@@ -12,6 +11,7 @@
         text-align: center;
         cursor: crosshair;
     }
+
     ::selection {
       background-color: rgb(192, 223, 241);
     }
@@ -23,25 +23,24 @@
     } 
 
     a:link {
-        color: mediumpurple; 
+        color: snow; 
         font-weight: bold;
         text-decoration: none;
       }
       
       a:visited {
-        color: mediumpurple;
+        color: snow;
         text-decoration: line-through;
       }
       
       a:hover {
-        color: snow;
-        background-color: mediumpurple;
+        color: mediumpurple;
         text-decoration: line-through;
         cursor: grab;
       }
       
       a:active {
-        color: rgb(255, 255, 154);
+        color: rgb(246, 213, 102);
         background-color: mediumpurple;
         text-decoration: none;
         cursor: wait;
@@ -52,8 +51,10 @@
           color: snow;
           font-size: 28pt;
           font-weight: bold;
-          padding-top: auto;
-          padding-bottom: auto;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          margin-top: 10%;
+          text-align: center;
       }
 
       .second {
@@ -64,11 +65,34 @@
         font-size: 32px;
       }
 
+      .info {
+        width: 340px;
+        margin-right: 40%;
+        margin-left: 40%;
+      }
+
       .topnav {
         background-color: rgb(247, 176, 188);
         border-width: 5px;
         border-color: rgb(235, 205, 209);
         border-style: solid;
+        height: 32px;
+        font-size: 32px;
+        margin-bottom: 20px;
+      }
+
+      .fortune {
+        background-color: snow;
+        border-width: 10px;
+        border-color: rgb(247, 176, 188);
+        color: mediumpurple;
+        font-size: 18px;
+        font-weight: bold;
+        padding-top:  20px;
+        padding-bottom: 20px;
+        border-style: dashed;
+        height: auto;
+        width: auto;
       }
 
       p {
@@ -76,14 +100,11 @@
         color: snow;
         font-size: 24px;
         font-weight: bolder;
+        text-align: center;
       }
 
       div span {
           background-color:rgb(247, 176, 188);
-          margin: auto;
-      }
-
-       {
-
+          padding: auto;
       }
 
